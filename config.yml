@@ -17,9 +17,9 @@ engine:                                   # Engine settings.
     book: "/path/to/pybook"               # Path to pybook.
   online_moves:
     chessdb:
-      enabled: false                      # Activate online moves from https://chessdb.cn/queryc_en/
-      min_depth: 20                       # Minimum evaluation depth.
-      min_time: 40                        # Time the bot must have at least to use the online move.
+      enabled: true                      # Activate online moves from https://chessdb.cn/queryc_en/
+      min_depth: 50                       # Minimum evaluation depth.
+      min_time: 20                        # Time the bot must have at least to use the online move.
       timeout: 5                          # Time the server has to respond.
     lichess_cloud:
       enabled: false                       # Activate online moves from Lichess cloud eval.
