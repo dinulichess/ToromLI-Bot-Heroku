@@ -5,11 +5,11 @@ engine:                                   # Engine settings.
   name: "stockfish"        # Binary name of the engine to use.
   ponder: true                            # Think on opponent's time.
   polyglot:
-    enabled: false                         # Activate polyglot book.
-    books:
-      white: "lichess-book"                      # Name of the book to use as white.
-      black: "elo3300"                         # Name of the book to use as black.
-      standard: null            # Name of the book to use if there is no specific book for white, black or chess960.
+    enabled: true                         # Activate polyglot book.
+    books: 
+      white: "null"                      # Name of the book to use as white.
+      black: "null"                         # Name of the book to use as black.
+      standard: "Drawkiller_EloZoom_big"            # Name of the book to use if there is no specific book for white, black or chess960.
       chess960: null                      # Name of the book to use for Chess960.
     selection: "best_move"                # Move selection is one of "weighted_random", "uniform_random" or "best_move".
   pybook:
@@ -88,5 +88,5 @@ matchmaking:
 
 
 books: 
-    lichess-book: "./engines/lichess-book.bin"  # Name of the opening book (to be used above in the polyglot section) and path to the polyglot opening book.  
-    elo3300: "./engines/elo3300.bin"
+Drawkiller_EloZoom_big: "./engines/Drawkiller_EloZoom_big.bin"  # Name of the opening book (to be used above in the polyglot section) and path to the polyglot opening book.  
+
