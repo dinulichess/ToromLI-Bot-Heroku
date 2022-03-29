@@ -82,7 +82,7 @@ matchmaking:
   initial_time: 60                        # Initial time for matchmaking mode.
   increment: 1                            # Increment time for matchmaking mode.
   rated: true                             # Activate rated games in matchmaking mode.
-  timeout: 10                             # Time until a challenge is canceled. 
+  timeout: 100                             # Time until a challenge is canceled. 
 # min_rating_diff: 0                      # Minimum rating distance to opponent. (Commenting allowed)
 # max_rating_diff: 300                    # Maximum rating distance to opponent. (Commenting allowed)
 
